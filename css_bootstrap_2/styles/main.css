@@ -1,0 +1,48 @@
+.myPanel {
+    margin: 3%;
+    border: 1px solid #0d50bc;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 0 4px #ccc;
+}
+
+.myPanel .heading {
+    background: #88ade8;
+    border-radius: 5px 5px 0 0 ;
+    /* for all vendors - start */
+    /* -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px; */
+    /* for all vendors - end */
+    color: #0d50bc;
+    padding: 10px 20px
+}
+
+.myPanel .body {
+    padding: 10px 20px;
+}
+
+.myPanel .showOnHover {
+    display: none;
+}
+
+.myPanel:hover {
+    box-shadow: 10px 10px 50px black;
+    border: 3px solid #0d50bc;
+}
+
+.myPanel:hover .showOnHover {
+    display: inline-block;
+}
+
+p#main {
+    color: green;
+}
+
+p.last {
+    color: red;
+}
+
+p {
+    color: blue;
+}
+
